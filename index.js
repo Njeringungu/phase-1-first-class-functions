@@ -1,12 +1,10 @@
 
 function receivesAFunction(callback) {
-    callback();
+    return callback();
   }
 
-
-  
   function returnsANamedFunction() {
-    return function namedFn() {
+    return function namedFunction() {
       console.log("this is a named function");
     };
   }
